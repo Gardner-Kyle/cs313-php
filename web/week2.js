@@ -12,4 +12,8 @@ $(document).ready(function(){
   $("#colorBtn").click(function(){
 		$("#div1").css("background-color", $("#colorText").val())
   });
+
+  $("#fadeBtn").click(function(){
+		$("#div3").fadeOut()
+  });
 });
