@@ -1,3 +1,5 @@
-$("#colorBtn").click(function(){
-   $(this).css("background-color", "blue")
-});
+function changeColor() {
+	$("#colorBtn").click(function(){
+	   $(this).css("background-color", "blue")
+	});
+}
