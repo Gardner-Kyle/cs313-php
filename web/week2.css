@@ -2,6 +2,11 @@
 	font-weight: bold;
 }
 
+.div {
+	padding: 30%;
+	text-align: center;
+}
+
 #div1 {
 	font-size: 15px;
 	color: blue;
@@ -17,5 +22,5 @@
 #div3 {
 	font-size: 10px;
 	color: green;
-	background-color: red;
+	background-color: pink;
 }
