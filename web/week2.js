@@ -7,11 +7,7 @@ function changeColor() {
 $(document).ready(function(){
   $("#fadeBtn").click(
   	function(){
-		$("#div2").fadeOut()
-		$("#div3").fadeIn()
-	},
-	function(){
-		$("#div3").fadeOut()
-		$("#div2").fadeIn()
-  });
+		$("#div2").fadeToggle()
+		$("#div3").fadeToggle()
+	});
 });
