@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="week2.css">
 </head>
 <body>
-
+	<?php echo date("D M d, Y G:i a"); ?>
 <div class="div" id="div1"> Welcome <br>
 	<textarea placeholder="Enter color" id="colorText" style="margin-top: 10%"></textarea> <br>
 	<button type="button" style="margin-top: 10px" id="colorBtn" onclick="changeColor()">Change color</button>
