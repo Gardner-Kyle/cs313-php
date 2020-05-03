@@ -11,3 +11,11 @@ $(document).ready(function(){
 		$("#div3").fadeToggle()
 	});
 });
+
+$(document).ready(function(){
+  $("#fadeBtn2").click(
+  	function(){
+		$("#div3").fadeToggle()
+		$("#div2").fadeToggle()
+	});
+});
