@@ -6,6 +6,11 @@ function changeColor() {
 
 $(document).ready(function(){
   $("#fadeBtn").click(function(){
+  	if ($("#div2").is(":visible"))
+		$("#div2").fadeOut()
+		$("#div3").fadeIn()
+	else 
 		$("#div3").fadeOut()
+		$("#div2").fadeIn()
   });
 });

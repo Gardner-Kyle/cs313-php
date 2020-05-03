@@ -14,7 +14,9 @@
 }
 
 #div2 {
-	font-size: 10px;
-	color: green;
 	background-color: pink;
+}
+
+#div2 {
+	background-color: yellow;
 }
