@@ -19,10 +19,9 @@
 	<img src="https://www.hypable.com/wp-content/uploads/2014/01/gandalf.png"> 
 	<br>
 	<button type="button" style="margin-top: 10%" id="fadeBtn2">Click to Change</button>
+</div>
 
 		<?php echo date("D M d, Y G:i a"); ?>
-		
-</div>
 
 </body>
 </html>
