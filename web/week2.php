@@ -9,6 +9,9 @@
 <div class="div" id="div1"> Welcome <br>
 	<textarea placeholder="Enter color" id="colorText" style="margin-top: 10%"></textarea> <br>
 	<button type="button" style="margin-top: 10px" id="colorBtn" onclick="changeColor()">Change color</button>
+
+			<?php echo date("D M d, Y G:i a"); ?>
+
 </div>
 <div class="div" id="div2"> 
 	<img src="http://cdn.quotesgram.com/img/63/48/1051968536-quote-from-the-lord-of-the-rings-the-return-of-the-king.jpg"> 
@@ -20,8 +23,5 @@
 	<br>
 	<button type="button" style="margin-top: 10%" id="fadeBtn2">Click to Change</button>
 </div>
-
-		<?php echo date("D M d, Y G:i a"); ?>
-
 </body>
 </html>

@@ -3,7 +3,7 @@
 }
 
 .div {
-	height: 20%;
+	display: table-row;
 	padding: 10%;
 	text-align: center;
 }
