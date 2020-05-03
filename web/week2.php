@@ -6,7 +6,6 @@
 	<link rel="stylesheet" type="text/css" href="week2.css">
 </head>
 <body>
-	<?php echo date("D M d, Y G:i a"); ?>
 <div class="div" id="div1"> Welcome <br>
 	<textarea placeholder="Enter color" id="colorText" style="margin-top: 10%"></textarea> <br>
 	<button type="button" style="margin-top: 10px" id="colorBtn" onclick="changeColor()">Change color</button>
@@ -20,6 +19,9 @@
 	<img src="https://www.hypable.com/wp-content/uploads/2014/01/gandalf.png"> 
 	<br>
 	<button type="button" style="margin-top: 10%" id="fadeBtn2">Click to Change</button>
+
+		<?php echo date("D M d, Y G:i a"); ?>
+		
 </div>
 
 </body>
