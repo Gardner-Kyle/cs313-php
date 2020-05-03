@@ -12,11 +12,13 @@
 	<button type="button" style="margin-top: 10px" id="colorBtn" onclick="changeColor()">Change color</button>
 </div>
 <div class="div" id="div2"> 
-	<img src="http://cdn.quotesgram.com/img/63/48/1051968536-quote-from-the-lord-of-the-rings-the-return-of-the-king.jpg"> <br> 
+	<img src="http://cdn.quotesgram.com/img/63/48/1051968536-quote-from-the-lord-of-the-rings-the-return-of-the-king.jpg"> 
+	<br> 
 	<button type="button" style="margin-top: 10%" id="fadeBtn">Click to Change</button>
 </div>
 <div class="div" id="div3">
-	<img src="https://www.hypable.com/wp-content/uploads/2014/01/gandalf.png">
+	<img src="https://www.hypable.com/wp-content/uploads/2014/01/gandalf.png"> 
+	<br>
 	<button type="button" style="margin-top: 10%" id="fadeBtn2">Click to Change</button>
 </div>
 
