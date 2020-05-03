@@ -5,13 +5,13 @@ function changeColor() {
 }
 
 $(document).ready(function(){
-  $("#fadeBtn").toggle(
+  $("#fadeBtn").click(
   	function(){
-		$("#div3").fadeOut()
-		$("#div2").fadeIn()
-	},
-	function(){
 		$("#div2").fadeOut()
 		$("#div3").fadeIn()
+	},
+	function(){
+		$("#div3").fadeOut()
+		$("#div2").fadeIn()
   });
 });
