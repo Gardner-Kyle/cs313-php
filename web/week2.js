@@ -5,11 +5,12 @@ function changeColor() {
 }
 
 $(document).ready(function(){
-  $("#fadeBtn").click(function(){
-  	if ($("#div2").is(":visible"))
+  $("#fadeBtn").toggle(
+  	function(){
 		$("#div2").fadeOut()
 		$("#div3").fadeIn()
-	else 
+	},
+	function(){
 		$("#div3").fadeOut()
 		$("#div2").fadeIn()
   });
