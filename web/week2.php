@@ -13,8 +13,8 @@
 <div class="div" id="div2"> 
 
 			<?php echo date("D M d, Y G:i a"); ?>
-	<br>
-	<img class="img" src="http://cdn.quotesgram.com/img/63/48/1051968536-quote-from-the-lord-of-the-rings-the-return-of-the-king.jpg"> 
+	<br style="padding-bottom: 10px">
+	<img class="img" src="https://cdn.quotesgram.com/img/63/48/1051968536-quote-from-the-lord-of-the-rings-the-return-of-the-king.jpg"> 
 	<br> 
 	<button type="button" style="margin-top: 10%" id="fadeBtn">Click to Change</button>
 </div>
