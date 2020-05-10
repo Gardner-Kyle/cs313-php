@@ -24,7 +24,8 @@
 	<button type="button" class="btn" id="btn3" onclick="img3btn()">+</button>
 	<button type="button" class="btn" id="btn4" onclick="img4btn()">+</button>
 	<br>
-	<a href="https://google.com" class="btn">Go to Google</a>
+	<button type="button" class="btn" id="submit" onclick="submit()"><a href="https://google.com"></a>
+ Cart </button>
 </div>
 </body>
 </html>
