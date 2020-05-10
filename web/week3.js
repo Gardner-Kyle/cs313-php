@@ -7,37 +7,37 @@ function img1btn() {
 	var val = document.getElementById("btn1");
 	this.img1 += 1;
 	val.innerHTML = "+" + img1;
-	init()
 }
 
 function img2btn() {
 	var val = document.getElementById("btn2");
 	this.img2 += 1;
 	val.innerHTML = "+" + img2;
-	init()
 }
 
 function img3btn() {
 	var val = document.getElementById("btn3");
 	this.img3 += 1;
 	val.innerHTML = "+" + img3;
-	init()
 }
 
 function img4btn() {
 	var val = document.getElementById("btn4");
 	this.img4 += 1;
 	val.innerHTML = "+" + img4;
-	init()
 }
 
-function init() {
+function submit() {
+	if (this.img1 < 1) {
 		var val = document.getElementById("ch_img1");
 		val.style.display = 'none';
 		val.innerHTML = img1;
+	}
+	if (this.img2 < 1) {
 		var val = document.getElementById("ch_img2");
 		val.style.display = 'none';
 		val.innerHTML = "+" + img2;
+	}
 	if (this.img3 < 1) {
 		var val = document.getElementById("ch_img3");
 		val.style.display = 'none';
