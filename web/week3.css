@@ -6,17 +6,17 @@
 
 .btn {
 	margin: 20px;
-	width: 350px;
+	width: 250px;
 	height: 40px;
 	background-color: gray;
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 30px;
 }
 
 .img {
 	margin: 20px;		
-	width: 350px;
-	height: 245px;
+	width: 250px;
+	height: 175px;
 }
 
 #div1 {
