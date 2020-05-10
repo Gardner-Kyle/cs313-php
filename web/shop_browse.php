@@ -25,7 +25,7 @@
 	<button type="button" class="btn" id="btn4" onclick="img4btn()">+</button>
 	<br>
 	<form action="shop_cart.php">
-		<button type="submit" class="btn" id="submit" onclick="submit()"> Cart </button>
+		<button type="submit" class="btn" id="submit" onclick="init()"> Cart </button>
 	</form>
 </div>
 </body>

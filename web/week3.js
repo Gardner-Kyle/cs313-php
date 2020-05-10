@@ -27,7 +27,7 @@ function img4btn() {
 	val.innerHTML = "+" + img4;
 }
 
-function submit() {
+function init() {
 		var val = document.getElementById("ch_img1");
 		val.style.display = 'none';
 		val.innerHTML = img1;
