@@ -2,8 +2,8 @@
 <html>
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="week2.js" type="text/javascript"></script>
-	<link rel="stylesheet" type="text/css" href="week2.css">
+	<script src="week3.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="week3.css">
 </head>
 <body>
 <div class="div" id="div1"> Welcome <br>

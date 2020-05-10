@@ -1,0 +1,28 @@
+.div {
+	height: 20%;
+	padding: 10%;
+	text-align: center;
+}
+
+.btn {
+	margin: 20px;
+	width: 350px;
+	height: 40px;
+	background-color: gray;
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.img {
+	margin: 20px;		
+	width: 350px;
+	height: 245px;
+}
+
+#div1 {
+	background-color: orange;
+}
+
+#div2 {
+	background-color: pink;
+}
