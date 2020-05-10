@@ -6,25 +6,16 @@
 	<link rel="stylesheet" type="text/css" href="week3.css">
 </head>
 <body>
-<div class="div" id="div1"> Welcome <br>
-	<textarea placeholder="Enter color" id="colorText" style="margin-top: 10%"></textarea> <br>
-	<button type="button" style="margin-top: 10px" id="colorBtn" onclick="changeColor()">Change color</button>
+<div class="div" id="div1"> Checkout </div>
+<div class="div" id="div2">
+	<img src="https://i.imgur.com/SmXu3j7.jpg" id="ch_img1">
+	<img src="https://images.indianexpress.com/2017/12/lord-of-the-rings-759.jpg" id="ch_img2">
+	<img src="https://wallpaperaccess.com/full/830830.jpg" id="ch_img3">
+	<img src="https://wallpaperaccess.com/full/830842.jpg" id="ch_img4">
 </div>
-<div class="div" id="div2"> 
-
-			<?php echo date("D M d, Y G:i a"); ?>
-	<br>
-	<img class="img" src="https://cdn.quotesgram.com/img/63/48/1051968536-quote-from-the-lord-of-the-rings-the-return-of-the-king.jpg"> 
-	<br> 
-	<button type="button" style="margin-top: 10%" id="fadeBtn">Click to Change</button>
-</div>
-<div class="div" id="div3">
-
-			<?php echo date("D M d, Y G:i a"); ?>
-	<br>
-	<img class="img" src="https://www.hypable.com/wp-content/uploads/2014/01/gandalf.png"> 
-	<br>
-	<button type="button" style="margin-top: 10%" id="fadeBtn2">Click to Change</button>
+<div class="div" id="div1">  
+	<a href="shop_browse.php" type="button" class="btn" id="backbtn">Back</a>
+	<a href="shop_checkout" type="button" class="btn" id="checkout" onclick="toCheckout()">Checkout</a>
 </div>
 </body>
 </html>
