@@ -27,7 +27,7 @@ function img4btn() {
 	val.innerHTML = "+" + img4;
 }
 
-function submit() {
+function toCart() {
 	if this.img1 < 1 {
 		var val = document.getElementById("ch_img1");
 		val.style.visibility = 'hidden';
