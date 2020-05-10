@@ -14,8 +14,12 @@
 	<img class="img" src="https://wallpaperaccess.com/full/830842.jpg" id="ch_img4">
 </div>
 <div class="div" id="div1">  
-	<a href="shop_browse.php" type="button" class="btn" id="backbtn">Back</a>
-	<a href="shop_checkout" type="button" class="btn" id="checkout" onclick="toCheckout()">Checkout</a>
+	<form action="shop_browse.php">
+		<a type="submit" class="btn" id="backbtn">Back</a>
+	</form>
+	<form action="shop_checkout">
+		<button type="submit" class="btn" id="checkout" onclick="toCheckout()">Checkout</a>
+	</form>
 </div>
 </body>
 </html>
