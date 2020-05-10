@@ -15,7 +15,7 @@
 </div>
 <div class="div" id="div1">  
 	<form action="shop_browse.php">
-		<a type="submit" class="btn" id="backbtn">Back</a>
+		<button type="submit" class="btn" id="backbtn">Back</button>
 	</form>
 	<form action="shop_checkout">
 		<button type="submit" class="btn" id="checkout" onclick="toCheckout()">Checkout</a>
