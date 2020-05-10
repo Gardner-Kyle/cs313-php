@@ -5,45 +5,45 @@ var img4 = 0
 
 function img1btn() {
 	var val = document.getElementById("btn1");
-	img1 += 1
+	this.img1 += 1
 	val.innerHTML = "+" + img1;
 }
 
 function img2btn() {
 	var val = document.getElementById("btn2");
-	img2 += 1
+	this.img2 += 1
 	val.innerHTML = "+" + img2;
 }
 
 function img3btn() {
 	var val = document.getElementById("btn3");
-	img3 += 1
+	this.img3 += 1
 	val.innerHTML = "+" + img3;
 }
 
 function img4btn() {
 	var val = document.getElementById("btn4");
-	img4 += 1
+	this.img4 += 1
 	val.innerHTML = "+" + img4;
 }
 
 function submit() {
-	if img1 < 1 {
+	if this.img1 < 1 {
 		var val = document.getElementById("ch_img1");
 		val.style.visibility = 'hidden';
 		val.innerHTML = img1;
 	}
-	if img2 < 1 {
+	if this.img2 < 1 {
 		var val = document.getElementById("ch_img2");
 		val.style.visibility = 'hidden';
 		val.innerHTML = "+" + img2;
 	}
-	if img3 < 1 {
+	if this.img3 < 1 {
 		var val = document.getElementById("ch_img3");
 		val.style.visibility = 'hidden';
 		val.innerHTML = img3;
 	}
-	if img4 < 1 {
+	if this.img4 < 1 {
 		var val = document.getElementById("ch_img4");
 		val.style.visibility = 'hidden';
 		val.innerHTML = "yup";

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -18,4 +18,4 @@
 	<a href="shop_checkout" type="button" class="btn" id="checkout" onclick="toCheckout()">Checkout</a>
 </div>
 </body>
-</html>
+</html> -->
