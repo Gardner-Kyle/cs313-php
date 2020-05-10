@@ -13,15 +13,15 @@
 	<img class="img" id="img1" src="https://i.imgur.com/SmXu3j7.jpg">
 	<img class="img" id="img2" src="https://images.indianexpress.com/2017/12/lord-of-the-rings-759.jpg"> 
 	<br> 
-	<button type="button" class="btn" id="btn1" style="margin: 10%" onclick="img1btn()">+</button>
-	<button type="button" class="btn" id="btn2" style="margin: 10%" onclick="img2btn()">-</button>
+	<button type="button" class="btn" id="btn1" onclick="img1btn()">+</button>
+	<button type="button" class="btn" id="btn2" onclick="img2btn()">+</button>
 </div>
 <div class="div" id="div2"> 
 	<img class="img" id="img3" src="https://wallpaperaccess.com/full/830830.jpg">
 	<img class="img" id="img4" src="https://wallpaperaccess.com/full/830842.jpg"> 
 	<br> 
-	<button type="button" class="btn" id="btn3" style="margin: 10%" onclick="img3btn()">+</button>
-	<button type="button" class="btn" id="btn4" style="margin: 10%" onclick="img4btn()">+</button>
+	<button type="button" class="btn" id="btn3" onclick="img3btn()">+</button>
+	<button type="button" class="btn" id="btn4" onclick="img4btn()">+</button>
 	<br>
 	<button type="button" class="button" id="submit" style="margin-top: 40px;" onclick="submit()"></button>
 </div>
