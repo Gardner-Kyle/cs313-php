@@ -28,22 +28,22 @@ function img4btn() {
 }
 
 function submit() {
-	if this.img1 < 1 {
+	if img1 < 1 {
 		var val = document.getElementById("ch_img1");
 		val.style.visibility = 'hidden';
 		val.innerHTML = img1;
 	}
-	if this.img2 < 1 {
+	if img2 < 1 {
 		var val = document.getElementById("ch_img2");
 		val.style.visibility = 'hidden';
 		val.innerHTML = "+" + img2;
 	}
-	if this.img3 < 1 {
+	if img3 < 1 {
 		var val = document.getElementById("ch_img3");
 		val.style.visibility = 'hidden';
 		val.innerHTML = img3;
 	}
-	if this.img4 < 1 {
+	if img4 < 1 {
 		var val = document.getElementById("ch_img4");
 		val.style.visibility = 'hidden';
 		val.innerHTML = "yup";
