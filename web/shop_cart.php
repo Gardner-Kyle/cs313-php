@@ -2,7 +2,7 @@
 <html>
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="week3.js" type="text/javascript">submit()</script>
+	<script src="week3.js" type="text/javascript"></script>
 	<link rel="stylesheet" type="text/css" href="week3.css">
 </head>
 <body>
