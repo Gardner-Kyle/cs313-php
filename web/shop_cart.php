@@ -17,7 +17,7 @@
 	<form action="shop_browse.php">
 		<button type="submit" class="btn" id="backbtn">Back</button>
 	</form>
-	<form action="shop_checkout">
+	<form action="shop_checkout.php">
 		<button type="submit" class="btn" id="checkout" onclick="toCheckout()">Checkout</a>
 	</form>
 </div>
