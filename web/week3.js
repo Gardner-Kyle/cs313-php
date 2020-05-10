@@ -31,11 +31,9 @@ function submit() {
 		var val = document.getElementById("ch_img1");
 		val.style.display = 'none';
 		val.innerHTML = img1;
-	if (this.img2 < 1) {
 		var val = document.getElementById("ch_img2");
 		val.style.display = 'none';
 		val.innerHTML = "+" + img2;
-	}
 	if (this.img3 < 1) {
 		var val = document.getElementById("ch_img3");
 		val.style.display = 'none';
