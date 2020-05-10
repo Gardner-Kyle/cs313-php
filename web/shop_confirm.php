@@ -8,10 +8,10 @@
 <body>
 <div class="div" id="div1"><h1> Thank you for shopping! </h1><br>
 	<form action="shop_checkout.php">
-		<button type="button" class="btn" id="colorBtn">Back</button>
+		<button type="button" class="btn" id="return">Back</button>
 	</form>
 	<form action="shop_browse.php">
-		<button type="button" class="btn" id="colorBtn">Back</button>
+		<button type="button" class="btn" id="browse">Continue Shopping</button>
 	</form>
 </div>
 </body>
