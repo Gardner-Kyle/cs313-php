@@ -23,7 +23,7 @@
 	<button type="button" class="btn" id="btn3" onclick="img3btn()">+</button>
 	<button type="button" class="btn" id="btn4" onclick="img4btn()">+</button>
 	<br>
-	<button type="button" class="button" id="submit" style="margin-top: 40px;" onclick="submit()"></button>
+	<button type="button" class="button" id="submit" style="margin-top: 40px;" onclick="submit()"> Cart </button>
 </div>
 </body>
 </html>
