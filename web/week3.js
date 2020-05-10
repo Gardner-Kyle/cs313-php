@@ -28,11 +28,9 @@ function img4btn() {
 }
 
 function submit() {
-	if (this.img1 < 1) {
 		var val = document.getElementById("ch_img1");
 		val.style.display = 'none';
 		val.innerHTML = img1;
-	}
 	if (this.img2 < 1) {
 		var val = document.getElementById("ch_img2");
 		val.style.display = 'none';
