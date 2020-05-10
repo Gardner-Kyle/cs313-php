@@ -1,4 +1,4 @@
-var img1: number = 0;
+var img1 = 0;
 var img2 = 0;
 var img3 = 0;
 var img4 = 0;
