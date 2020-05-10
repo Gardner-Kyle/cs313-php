@@ -7,7 +7,8 @@
 </head>
 <body>
 <div class="div" id="div_h"><h1> Welcome to Poster Man </h1><br>
-	<h2> Please select any items you wish to order. </h2>
+	<h2> Please select any posters you wish to order. </h2>
+	<h3> All posters are 4ft wide and 3ft tall.</h3>
 </div>
 <div class="div" id="div1"> 
 	<img class="img" id="img1" src="https://i.imgur.com/SmXu3j7.jpg">
@@ -23,7 +24,7 @@
 	<button type="button" class="btn" id="btn3" onclick="img3btn()">+</button>
 	<button type="button" class="btn" id="btn4" onclick="img4btn()">+</button>
 	<br>
-	<button type="button" class="button" id="submit" style="margin-top: 40px;" onclick="submit()"> Cart </button>
+	<a href="https://google.com" class="btn">Go to Google</a>
 </div>
 </body>
 </html>
