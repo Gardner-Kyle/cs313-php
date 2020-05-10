@@ -8,10 +8,10 @@
 <body>
 <div class="div" id="div1"> Checkout </div>
 <div class="div" id="div2">
-	<img src="https://i.imgur.com/SmXu3j7.jpg" id="ch_img1">
-	<img src="https://images.indianexpress.com/2017/12/lord-of-the-rings-759.jpg" id="ch_img2">
-	<img src="https://wallpaperaccess.com/full/830830.jpg" id="ch_img3">
-	<img src="https://wallpaperaccess.com/full/830842.jpg" id="ch_img4">
+	<img class="img" src="https://i.imgur.com/SmXu3j7.jpg" id="ch_img1">
+	<img class="img" src="https://images.indianexpress.com/2017/12/lord-of-the-rings-759.jpg" id="ch_img2">
+	<img class="img" src="https://wallpaperaccess.com/full/830830.jpg" id="ch_img3">
+	<img class="img" src="https://wallpaperaccess.com/full/830842.jpg" id="ch_img4">
 </div>
 <div class="div" id="div1">  
 	<a href="shop_browse.php" type="button" class="btn" id="backbtn">Back</a>
