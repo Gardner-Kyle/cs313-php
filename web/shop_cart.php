@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="week3.css">
 </head>
 <body>
-<div class="div" id="div1"> Checkout </div>
+<div class="div" id="div1"><h1> Checkout </h1></div>
 <div class="div" id="div2">
 	<img class="img" src="https://i.imgur.com/SmXu3j7.jpg" id="ch_img1">
 	<img class="img" src="https://images.indianexpress.com/2017/12/lord-of-the-rings-759.jpg" id="ch_img2">
