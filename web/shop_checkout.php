@@ -13,7 +13,7 @@
 		<button type="submit" class="btn" id="return">Back</button>
 	</form>
 	<form action="shop_confirm.php">
-		<button type="submit" class="btn" id="checkout">Checkout</button>
+		<button type="submit" class="btn" id="checkout">Shop</button>
 	</form>
 </div>
 </body>
