@@ -16,7 +16,7 @@
 <div class="div" id="div1"> Welcome <br>
 </div>
 <div>
-	<form action="<?php $this-> ?>" method="post">
+	<form action="login.php" method="post">
 		<div class="div" id="div2"> 
 			<input type="text" name="password">
 		</div>
