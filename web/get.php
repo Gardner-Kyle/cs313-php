@@ -1,7 +1,8 @@
 <?php
 	$userPassword = $_POST["password"];
-	echo "$userPassword<br>";
+	echo "Password: $userPassword<br>";
 	$db_connection = pg_connect("host=localhost dbname=quotes user= password=");
+	echo "DB: $db_connection<br>"
 	$result = pg_query($db_connection, "SELECT * FROM user");
 	echo "User Data: $result";
 ?>
