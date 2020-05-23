@@ -6,7 +6,7 @@
 
 	$userPassword = $_POST["password"];
 	echo "Password: $userPassword<br>";
-	$db_connection = pg_connect("host=localhost dbname=quotes user=root password=root");
+	$db_connection = pg_connect("$host $port $dbname $credentials");
 
 	if ($db_connection) {
 		echo "FAILURE<br>";
