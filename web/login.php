@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script src="db.js" type="text/javascript"></script>
-		<link rel="stylesheet" type="text/css" href="week2.css">
+
 	</head>
 	<body>
 
