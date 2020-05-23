@@ -5,19 +5,9 @@
 		<link rel="stylesheet" type="text/css" href="week2.css">
 	</head>
 	<body>
-
-		<?php
-			function get() {
-				$userPassword = $_POST["password"];
-				$db_connection = pg_connect("host=localhost dbname=quotes user= password=");
-				$result = pg_query($db_connection, "SELECT * FROM user WHERE user.password = ");
-				echo "User Data: $result";
-			}
-		?>
-
 		<div class="div" id="div1"> Welcome <br></div>
 		<div>
-			<form action="get()" method="post">
+			<form action="get.php" method="post">
 				<div class="div" id="div2"> 
 					<input type="text" name="password">
 				</div>
