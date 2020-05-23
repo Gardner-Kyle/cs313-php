@@ -4,10 +4,10 @@
 	$db_connection = pg_connect("host=localhost dbname=quotes user= password= ");
 
 	if ($db_connection) {
-		echo "FAILURE";
+		echo "FAILURE<br>";
 	} else {
-		echo "SUCCESS";
+		echo "SUCCESS<br>";
 	}
-	$result = pg_query("SELECT * FROM quotes.quotes.user");
+	$result = pg_query("SELECT id FROM quotes.quotes.user");
 	echo "User Data: $result";
 ?>
