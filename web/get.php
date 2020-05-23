@@ -7,7 +7,7 @@
 	$userPassword = $_POST["password"];
 	echo "Password: $userPassword<br>";
 	// $db_connection = pg_connect("$host $port $dbname $credentials");
-	$db_connection = cubrid_connect_with_url("jdbc:postgresql://localhost:5432/quotes");
+	$db_connection = cubrid_connect_with_url("jdbc:postgresql://localhost:5432/quotes" [, "", [, "" [, FALSE]]]) : resource;
 
 	if (!$db_connection) {
 		echo "FAILURE<br>";
