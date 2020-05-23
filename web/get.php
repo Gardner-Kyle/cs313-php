@@ -2,12 +2,11 @@
 	$host        = "host=127.0.0.1";                         
 	$port        = "port=5432";                        
 	$dbname      = "dbname=quotes";                         
-	$credentials = "user= password=";
+	$credentials = "user='' password=''";
 
 	$userPassword = $_POST["password"];
 	echo "Password: $userPassword<br>";
-	// $db_connection = pg_connect("$host $port $dbname $credentials");
-	$db_connection = cubrid_connect_with_url("jdbc:postgresql://localhost:5432/quotes" [, "", [, "" [, FALSE]]]) : resource;
+	$db_connection = pg_connect("$host $port $dbname $credentials");
 
 	if (!$db_connection) {
 		echo "FAILURE<br>";
