@@ -7,6 +7,7 @@
 		echo "FAILURE<br>";
 	} else {
 		echo "SUCCESS<br>";
+		echo "DB Name: " . pg_dbname($db_connection) . "<br>";
 	}
 	$result = pg_query("SELECT id FROM quotes.quotes.user");
 	echo "User Data: $result";
