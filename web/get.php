@@ -1,7 +1,7 @@
 <?php
 	$userPassword = $_POST["password"];
 	echo "Password: $userPassword<br>";
-	$db_connection = pg_connect("host=localhost port=5432 dbname=quotes user= password="
+	$db_connection = pg_connect("host=localhost port=5432 dbname=darwin3 user=root password="
 );
 
 	if (!$db_connection) {
