@@ -1,6 +1,6 @@
 <?php
-	display_errors = On
-	display_startup_errors = On
+	display_errors = On;
+	display_startup_errors = On;
 
 	$host        = "host=127.0.0.1";                         
 	$port        = "port=5432";                        
