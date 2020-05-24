@@ -1,11 +1,11 @@
 <?php
 	$userPassword = $_POST["password"];
 	echo "Password: $userPassword<br>";
-	$db_connection = pg_connect("host=localhost port=5432 dbname=quotes user=postgresql");
+	$db_connection = pg_connect("host=localhost port=5432 dbname=quotes user=postgresql")
+		or die('Could not connect: ' . pg_last_error());
 
 	if (!$db_connection) {
 		echo "FAILURE<br>";
-		echo "MSG: " . pg_result_error(result) . pg_last_error();
 	} else {
 		echo "SUCCESS<br>";
 		echo "DB Name: " . pg_dbname($db_connection) . "<br>";
