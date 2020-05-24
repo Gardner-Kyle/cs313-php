@@ -2,7 +2,7 @@
 	$userPassword = $_POST["password"];
 	echo "Password: $userPassword<br>";
 	$db_connection = pg_connect("host=localhost port=5432 dbname=quotes user=kylegardner password=3200Perryhill")
-		or die('Could not connect: ' . pg_last_error());
+		or die('Could not connect: ' . pg_last_error($db_connection));
 
 	if (!$db_connection) {
 		echo "FAILURE<br>";
