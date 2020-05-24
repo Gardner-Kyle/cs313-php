@@ -1,7 +1,7 @@
 <?php
 	$userPassword = $_POST["password"];
 	echo "Password: $userPassword<br>";
-	$db_connection = pg_connect("host=localhost port=5432 dbname=postgres user=kylegardner")
+	$db_connection = pg_connect("host=localhost port=5432 dbname=postgres")
 		or die('Could not connect: ' . pg_last_error());
 
 	if (!$db_connection) {
