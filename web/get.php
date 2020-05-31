@@ -5,7 +5,7 @@
 
 	if (!$db_connection) {
 		echo "FAILURE<br>";
-		echo "pg_last_error()";
+		echo pg_last_error();
 	} else {
 		echo "SUCCESS<br>";
 		echo "DB Name: " . pg_dbname($db_connection) . "<br>";
