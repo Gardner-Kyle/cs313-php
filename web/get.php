@@ -1,7 +1,7 @@
 <?php
 	$userPassword = $_POST["password"];
 	echo "Password: $userPassword<br>";
-	$db_connection = pg_pconnect("dbname=postgres");
+	$db_connection = pg_connect("postgresql://localhost");
 
 	if (!$db_connection) {
 		echo "FAILURE<br>";
