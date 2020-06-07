@@ -12,8 +12,6 @@
 		?>
 
 		<div class="div" id="div1"> Welcome <br>
-			<textarea placeholder="Enter color" id="colorText" style="margin-top: 10%"></textarea> <br>
-			<button type="button" style="margin-top: 10px" id="colorBtn" onclick="changeColor()">Change color</button>
 		</div>
 		<div class="div" id="div2"> 
 

@@ -9,7 +9,8 @@
 		<div>
 			<form action="get.php" method="post">
 				<div class="div" id="div2"> 
-					<input type="text" name="password">
+					<input placeholder="Username" type="text" name="username">
+					<input placeholder="Password" type="text" name="password">
 				</div>
 				<button type="submit" style="margin-top: 10%" id="submit">Login</button>
 			</form>
