@@ -20,6 +20,7 @@ function server() {
 }
 
 function connect() {
+  console.log("***** In Begin *****");
   var con = pg.createConnection({
     host: "localhost",
     user: "kylegardner",
@@ -27,11 +28,13 @@ function connect() {
     database: "quotes"
   });
 
+  console.log("***** Before Connect *****");
   con.connect(function(err) {
     if (err) throw err;
     con.query("SELECT * FROM user", function (err, result, fields) {
       if (err) throw err;
       console.log(result);
     });
+    console.log("***** End Connect *****");
   });
 }
