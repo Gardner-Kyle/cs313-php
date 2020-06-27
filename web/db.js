@@ -1,8 +1,18 @@
-function get() {
-	<?php
-		$userPassword = $_POST["password"];
-		$db_connection = pg_connect("host=localhost dbname=quotes user= password=");
-		$result = pg_query($db_connection, "SELECT * FROM user WHERE user.password = ");
-		echo "User Data: $result";
-	?>
-}
+const http = require('http');
+
+http.createServer((request, response) => {
+  request.on('error', (err) => {
+    console.error(err);
+    response.statusCode = 400;
+    response.end();
+  });
+  response.on('error', (err) => {
+    console.error(err);
+  });
+  if (request.method === 'POST') {
+    request.pipe(response);
+  } else {
+    response.statusCode = 404;
+    response.end();
+  }
+}).listen(8080);
