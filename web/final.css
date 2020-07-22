@@ -15,11 +15,12 @@ $button-background-color: #27AE60;
 }
 
 html { 
-  background-color: #e2ebca;
 }
 
 body {
-  background: transparent;
+  background-color: #e2ebca;
+  display: flex;
+  justify-content: center;
 }
 
 body, input, button {
