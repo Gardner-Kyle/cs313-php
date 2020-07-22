@@ -83,10 +83,6 @@ body, input, button {
       }
     }
 
-    .input-group, .input-group input-group-lg{
-margin: 20px 0 !important;
-    }
-
     input.form-control {
       @include normalize-input;
 
@@ -102,12 +98,9 @@ margin: 20px 0 !important;
     }
 
     button {
-      
       background: $button-background-color;
       font-size: 1.6em;
       font-weight: 300;
-      padding: 50px;
-      width: 100%;
       border-radius: 3px;
       color: lighten($button-background-color, 40%);
       border-bottom: 4px solid darken($button-background-color, 10%);
