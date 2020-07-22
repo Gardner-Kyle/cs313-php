@@ -191,6 +191,7 @@ body, input, button {
     font-size: 20px;
     font-weight: normal;
     text-transform: uppercase;
+    height: 20%;
     padding: 40px;
     margin: -20px -20px 20px -20px;
     border-bottom: 8px solid;
