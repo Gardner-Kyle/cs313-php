@@ -19,8 +19,8 @@ html {
 
 body {
   background-color: #e2ebca;
-  display: flex;
-  justify-content: center;
+  display: flex !important;
+  justify-content: center !important;
 }
 
 body, input, button {
