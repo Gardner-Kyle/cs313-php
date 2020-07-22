@@ -96,8 +96,11 @@ body, input, button {
       }
     }
 
+.input-group{
+  margin: 20px 0;
+}
     button {
-      margin: 20px 0;
+      
       background: $button-background-color;
       font-size: 1.6em;
       font-weight: 300;
