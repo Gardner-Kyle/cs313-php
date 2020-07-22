@@ -132,25 +132,25 @@ body, input, button {
 
 
 /*TABLE*/
-#fdw-pricing-table {
+#table {
     margin:20px 0;
     text-align: center;
     width: 928px; /* total computed width */
     zoom: 1;
   }
 
-  #fdw-pricing-table:before, #fdw-pricing-table:after {
+  #table:before, #table:after {
     content: "";
     display: table
   }
 
-  #fdw-pricing-table:after {
+  #table:after {
     clear: both
   }
 
   /* --------------- */ 
 
-  #fdw-pricing-table .plan {
+  #table .plan {
     font: 13px 'Lucida Sans', 'trebuchet MS', Arial, Helvetica;     
     background: #fff;      
     border: 1px solid #ddd;
@@ -166,7 +166,7 @@ body, input, button {
     box-shadow: 0 2px 2px -1px rgba(0,0,0,.3);    
   }
 
-  #fdw-pricing-table .plan:after {
+  #table .plan:after {
     z-index: -1; 
     position: absolute; 
     content: "";
@@ -186,7 +186,7 @@ body, input, button {
   
   /* --------------- */ 
 
-  #fdw-pricing-table .header {
+  #table .header {
     position: relative;
     font-size: 20px;
     font-weight: normal;
@@ -204,7 +204,7 @@ body, input, button {
     background-image: linear-gradient(#fff, #eee);
   }
 
-  #fdw-pricing-table .header:after {
+  #table .header:after {
     position: absolute;
     bottom: -8px; left: 0;
     height: 3px; width: 100%;
@@ -212,22 +212,22 @@ body, input, button {
     background-image: url(images/bar.png);
   }
   
-  #fdw-pricing-table .popular-plan .header {
+  #table .popular-plan .header {
     margin-top: -40px;
     padding-top: 60px;    
   }
 
-  #fdw-pricing-table .plan1 .header{
+  #table .plan1 .header{
     border-bottom-color: #B3E03F;
   }   
   
   /* --------------- */
 
-  #fdw-pricing-table .price{
+  #table .price{
     font-size: 45px;
   }
 
-  #fdw-pricing-table .monthly{
+  #table .monthly{
     font-size: 13px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -236,19 +236,19 @@ body, input, button {
 
   /* --------------- */
 
-  #fdw-pricing-table ul {
+  #table ul {
     margin: 20px 0;
     padding: 0;
     list-style: none;
   }
 
-  #fdw-pricing-table li {
+  #table li {
     padding: 10px 0;
   }
   
   /* --------------- */
     
-  #fdw-pricing-table .signup {
+  #table .signup {
     position: relative;
     padding: 10px 20px;
     color: #fff;
@@ -264,16 +264,16 @@ body, input, button {
     opacity: .9;       
   }
 
-  #fdw-pricing-table .signup:hover {
+  #table .signup:hover {
     opacity: 1;       
   }
 
-  #fdw-pricing-table .signup:active {
+  #table .signup:active {
     -moz-box-shadow: 0 2px 2px rgba(0,0,0,.3) inset;
     -webkit-box-shadow: 0 2px 2px rgba(0,0,0,.3) inset;
     box-shadow: 0 2px 2px rgba(0,0,0,.3) inset;       
   }     
 
-  #fdw-pricing-table .plan1 .signup{
+  #table .plan1 .signup{
     background: #B3E03F;
   }
