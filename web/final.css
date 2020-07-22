@@ -97,7 +97,7 @@ body, input, button {
     }
 
     button {
-      margin-top: 20px;
+      margin: 20px 0;
       background: $button-background-color;
       font-size: 1.6em;
       font-weight: 300;
