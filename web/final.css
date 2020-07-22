@@ -65,6 +65,7 @@ body, input, button {
     .input-group {
       border-bottom: 1px solid rgba(255, 255, 255, 0.1);
       border-top: 1px solid rgba(255, 255, 255, 0.1);
+        margin: 20px 0 !important;
 
       &:last-of-type {
         border-top: none;
@@ -96,9 +97,6 @@ body, input, button {
       }
     }
 
-.input-group.input-group-lg{
-  margin: 20px 0;
-}
     button {
       
       background: $button-background-color;
