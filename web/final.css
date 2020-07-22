@@ -133,7 +133,7 @@ body, input, button {
 
 /*TABLE*/
 #fdw-pricing-table {
-    margin:0 auto;
+    margin:20px 0;
     text-align: center;
     width: 928px; /* total computed width */
     zoom: 1;
