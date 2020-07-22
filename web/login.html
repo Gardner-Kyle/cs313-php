@@ -5,67 +5,29 @@
   <link rel="stylesheet" href="final.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <title>Sign in</title>
 </head>
 
 <body>
-  <div class="authentication-wrapper authentication-2 ui-bg-cover ui-bg-overlay-container px-4"
-     style="background-image: url('assets/img/bg/1.jpg');">
-  <div class="ui-bg-overlay bg-dark opacity-25"></div>
+  <div class="login">
+  <div class="heading">
+    <h2>Sign in</h2>
+    <form action="#">
 
-  <div class="authentication-inner py-5">
-
-    <div class="card">
-      <div class="p-4 p-sm-5">
-        <!-- Logo -->
-        <div class="d-flex justify-content-center align-items-center">
-          <div style="text-align: center">
-            <div>
-              <img src="../../../assets/images/shield-01.png" style="height: 130px">
-            </div>
+      <div class="input-group input-group-lg">
+        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+        <input type="text" class="form-control" placeholder="Username">
           </div>
+
+        <div class="input-group input-group-lg">
+          <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+          <input type="password" class="form-control" placeholder="Password">
         </div>
-        <!-- / Logo -->
 
-        <h5 class="text-center text-muted font-weight-normal mb-4">Darwin Login</h5>
-        <hr>
-        <!-- Form -->
-        <form (ngSubmit)="onSubmit()" #loginForm="ngForm">
-          <div class="form-group">
-            <label class="form-label">Email</label>
-            <input type="text" class="form-control" id="email"
-                   required autocomplete="username"
-                   [(ngModel)]="credentials.username" name="email"
-                   #email="ngModel">
-          </div>
-          <div class="form-group">
-            <label class="form-label d-flex justify-content-between align-items-end">
-              <div>Password</div>
-              <a (click)="forgotPassword()"
-                 class="d-block small text-secondary"
-                 style="color: blue;"
-              >
-
-                Forgot password?</a>
-            </label>
-            <input type="password" class="form-control" id="password"
-                   required autocomplete="current-password"
-                   [(ngModel)]="credentials.password" name="password"
-                   #password="ngModel">
-          </div>
-          <div class="d-flex justify-content-center m-0">
-            <button type="submit" class="btn usaColor text-white">Sign In</button>
-          </div>
-        </form>
-        <!-- / Form -->
-
-      </div>
-    </div>
-
-  </div>
-</div>                
-   </div>
+        <button type="submit" class="float">Login</button>
+       </form>
+ 		</div>
+ </div>
      
 </body>
 
