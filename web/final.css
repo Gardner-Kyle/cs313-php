@@ -96,7 +96,7 @@ body, input, button {
       }
     }
 
-.input-group{
+.input-group.input-group-lg{
   margin: 20px 0;
 }
     button {
