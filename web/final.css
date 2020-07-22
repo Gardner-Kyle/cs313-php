@@ -15,10 +15,7 @@ $button-background-color: #27AE60;
 }
 
 html { 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #e2ebca;
 }
 
 body {
